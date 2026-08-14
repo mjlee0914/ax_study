@@ -16,8 +16,16 @@ dependencies = [
     { name = "ipykernel" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "ipykernel" },
+]
+
 [package.metadata]
 requires-dist = [{ name = "ipykernel", specifier = ">=6.31.0" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ipykernel", specifier = ">=7.3.0" }]
 
 [[package]]
 name = "appnope"
