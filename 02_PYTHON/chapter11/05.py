@@ -1,4 +1,4 @@
-# httpx 실습(chap11-3)
+# httpx 실습(chap11-3) 실행 전 uv add httpx 터미널에서 설치
 
 import httpx
 import asyncio
