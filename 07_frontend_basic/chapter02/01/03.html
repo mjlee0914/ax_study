@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators practice</title>
+</head>
+<body>
+    <style>
+        ol span { /*하위(자손) 선택자*/
+            background: orange;
+        }
+        li div > span { /*부모>자식 선택자 */
+            background:  skyblue;
+        }
+    </style>
+    
+    <ul>
+        <li>menu 1</li>
+        <li>menu 2</li>
+        <li>
+            <span>menu 3</span>
+        </li>
+        <li>menu 4
+            <ol>
+                <li>
+                    <div>
+                        <span>
+                            submenu 1
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <span>submenu 2</span>
+                </li>
+                <li>submenu 3</li>
+            </ol>
+        </li>
+        <li>menu 5</li>
+    </ul>
+</body>
+</html>

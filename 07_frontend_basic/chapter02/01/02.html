@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector practice</title>
+</head>
+<body>
+    <style>
+        li {
+            background: gray;
+        }
+        .kia {
+            background: rgb(205, 255, 181) /*!important*/ ;
+        }
+        .discontinued {
+            font-style: italic;
+        }
+        #peli {
+            background-color: red;
+        }
+        .kia2 { 
+            background: skyblue; /*아래쪽에 정의된 스타일 우선적용*/
+        }
+    </style>
+
+    <ul>
+        <li class="kia" style="background-color: blue;" >sorento</li>
+        <li id="peli">pelisade</li>
+        <li class="kia kia2 discontinued">mohabi</li>ss
+        <li>trailblazer</li>
+        <li class="discontinued">kaien</li>
+    </ul>
+</body>
+</html>

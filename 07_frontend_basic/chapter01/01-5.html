@@ -8,20 +8,48 @@
     <body>
         <h1>회원가입</h1>
         <hr>
-        <form>
-            이메일: <input type="text"> <br>
-            비밀번호: <input type="password"> <br>
-            비밀번호 확인: <input type="password"> <br>
-            회원 이름: <input type="text"> <br>
-            성별
-                <label><input type="radio" name="gender" value="female" checked>여성</label>
-                <label><input type="radio" name="gender" value="male">남성<br></label>  
-            취미
-                <label><input type="checkbox">파이썬 공부</label>
-                <label><input type="checkbox">머신러닝 공부</label>
-                <label><input type="checkbox">독서</label>  
+        <form method="POST" action="signup.html">
+            이메일: <input type="email" name="email" value="user@example.net" required> <br>
+            비밀번호: <input type="password" name="password" required placeholder="비밀번호를 입력하세요."> <br>
+            비밀번호 확인: <input type="password" name="confirm_password" required> <br>
+            회원 이름: <input type="text" name="username" required> <br>
+            성별:
+                <label>
+                    <input type="radio" name="gender" value="female" checked>여성
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="male">남성
+                </label>
+                <br>  
+            취미: <!--- 아래 레이블 (for id)로 감싸면 디자인 체크박스/라디오에 디자인 적용 가능 -->
+                <label for="hobby_python"><input type="checkbox" id="hobby_python" name="hobby" value="python_study">파이썬 공부</label>
+                <label for="hobby_machine"><input type="checkbox" id="hobby_machine" name="hobby" value="ml_study">머신러닝 공부</label>
+                <label for="hobby_reading"><input type="checkbox" id="hobby_reading" name="hobby" value="reading">독서</label> 
             <br>
-            <input type="submit" value="제출">
+
+            자기소개: 
+            <br>
+            <textarea name="self-intro" rows="5" cols="30" placeholder="두 줄 이상 입력하세요."></textarea>
+            <br>
+
+            출생지:
+            <select name="birth_place" multiple size="2">
+                <option value="서울" selected>서울</option>
+                <option value="경기">경기</option>
+                <option value="부산">부산</option>
+                <option value="대전">대전</option>
+            </select>
+
+            생년월일:
+            <input type="date" name="birthday">
+            
+            생시:
+            <input type="time" name="birth_time">
+            <br>    
+            <input type="submit" value="input 제출">
+            <button type="submit">button 회원가입</button>
+
+        
         </form>
     </body>
 
