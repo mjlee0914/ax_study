@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a, p, .greeting {
+            color: green;
+        }
+        span.greeting { /* span이면서 .greeting인 선택자 */
+            color: orange;
+        }
+
+        input[type] {
+            border: 3px solid lightsalmon;
+        }
+
+        input[type="number"] {
+            border-color: blue;
+        }
+
+        a[href^='tel'] {
+            background: lightgray;
+        }
+        
+        a[href$='.com'] {
+            background: olive;
+        }
+
+        a[href$='.net'] {
+            background: lightblue;
+        }
+
+        a[href*='daum'] {
+            color: blue;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <a href="https://naver.com">네이버</a><br>
+    <a href="https://daum.net">다음</a><br>
+    <a href="tel:010-1000-1000">전화걸기</a>
+    <p>단락</p>
+    <div class="greeting">안녕하세요.</div>
+    <span class="greeting">반갑습니다.</span>
+    <hr>
+    <input type="text" placeholder="입력 칸">
+    <input type="number" placeholder="숫자만 입력 가능">
+</body>
+</html>

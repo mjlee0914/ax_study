@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>09.html 가상요소추가방법</title>
+</head>
+<body>
+    <style>
+        ul::before {
+            content: '첫번째';
+        }
+        ul::after {
+            content: '마지막';
+        }
+        textarea::placeholder {
+            color: red;
+        }
+        .text::selection {
+            background: pink;
+        }
+    </style>
+    <ul>
+        <li>menu1</li>
+        <li>menu2</li>
+        <li>menu3</li>
+    </ul>
+    
+    <textarea placeholder="자기소개를 입력하세요..."></textarea>
+
+    <div class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veniam temporibus quibusdam tempore dolorem ad. Molestias, optio modi aspernatur facere quae reprehenderit praesentium illo recusandae doloribus nemo qui, voluptate magnam!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias maxime natus expedita dolorem laudantium cupiditate veritatis voluptas perspiciatis in consequuntur quasi quibusdam sint, architecto iure nostrum laborum, ut dolore atque.
+    </div>
+</body>
+</html>
