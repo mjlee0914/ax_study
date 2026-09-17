@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-shrink-basis-wrap</title>
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #000;
+            height: 100px;
+            flex-wrap: wrap;
+        }
+
+        li {
+            flex-basis: 200px; /*기본값 정해주기*/
+            flex-shrink: 0; /*200px 미만으로 줄어들지 않게 방어*/
+        }
+
+        li:nth-of-type(3n+1) {
+            background: rgb(247, 202, 202);
+        }
+
+        li:nth-of-type(3n+2) {
+            background: rgb(197, 197, 232);
+        }
+
+        li:nth-of-type(3n) {
+            background: rgb(180, 231, 180);
+    
+        }
+
+        .flex1 {
+            display: flex;
+
+        }
+
+
+    </style>
+
+    <h3></h3>
+    <ul class="flex1">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+<body>
+    <style>
+        .box1 {
+            display: grid;
+            /*grid-template-columns: 150px 150px 300px;*/
+            grid-template-columns: repeat(3, 1fr);
+            color: #fff;
+            font-size: 20px;
+            gap: 20px 10px;
+            padding: 30px;
+            width: 600;
+            background-color: rgb(245, 235, 235);
+        }
+
+        .card {
+            height: 100px;
+            background: skyblue;
+        }
+
+        .card span {
+            background-color: pink;
+            color: white;
+        }
+
+    </style>
+
+    <div class="box1">
+        <div class="card"><span>A</span></div>
+        <div class="card"><span>B</span></div>
+        <div class="card"><span>C</span></div>
+        <div class="card"><span>D</span></div>
+    </div>
+</body>
+</html>

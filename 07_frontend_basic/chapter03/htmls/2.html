@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-justify-content</title>
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #000;
+            height: 100px;
+        }
+
+        li {
+            min-width: 100px;
+        }
+
+        li:nth-of-type(1) {
+            background: rgb(247, 202, 202);
+        }
+
+        li:nth-of-type(2) {
+            background: rgb(197, 197, 232);
+        }
+
+        li:nth-of-type(3) {
+            background: rgb(180, 231, 180);
+        }
+
+        .flex5 {
+            display: flex;
+            justify-content: flex-start; /* default */
+        }
+
+        .flex6 {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .flex7 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .flex8 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex9 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .flex10 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+
+    <h3>justify-content: flex-start</h3>
+        <ul class="flex5">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>
+
+    <h3>justify-content: flex-end</h3>
+        <ul class="flex6">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>
+
+    <h3>justify-content: center</h3>
+        <ul class="flex7">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>
+
+    <h3>justify-content: space-between</h3>
+        <ul class="flex8">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>
+    
+    <h3>justify-content: space-around</h3>
+        <ul class="flex9">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>    
+
+    <h3>justify-content: space-evenly</h3>
+        <ul class="flex10">
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>
+
+</body>
+</html>
