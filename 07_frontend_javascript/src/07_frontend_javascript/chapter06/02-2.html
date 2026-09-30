@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        img {
+            display: block;     /* 이미지를 block 요소로 설정 */
+            width: 500px;       /* 이미지 너비 500px */
+        }
+
+        .photo .image2 {
+            display: none;      /* 기본 상태에서는 2번 사진 숨김 */
+        }
+
+        .photo.swap .image1 {
+            display: none;      /* photo에 swap 클래스가 추가되면 1번 사진 숨김 */
+        }
+
+        .photo.swap .image2 {
+            display: block;     /* photo에 swap 클래스가 추가되면 2번 사진 표시 */
+        }
+    </style>
+
+    <script>
+        // HTML(DOM)이 전부 만들어진 다음 내부 코드 실행
+        window.addEventListener("DOMContentLoaded", function() {
+
+            // id="swap"인 버튼 가져오기
+            const btnEl = document.getElementById("swap");
+
+            // 버튼을 클릭했을 때 함수 실행
+            btnEl.addEventListener("click", function() {
+
+                // class="photo"인 요소 가져오기
+                const photoEl = document.querySelector(".photo");
+
+                // photo 요소의 클래스 목록 가져오기
+                const clslist = photoEl.classList;
+
+                // photo에 "swap" 클래스가 있는지 확인
+                if (clslist.contains("swap")) {
+
+                    // 있으면 swap 클래스 제거
+                    // photo swap → photo
+                    clslist.remove("swap");
+
+                } else {
+
+                    // 없으면 swap 클래스 추가
+                    // photo → photo swap
+                    photoEl.classList.add("swap");
+                }
+            });
+        });
+    </script>
+
+
+    <div class="photo">
+        <!-- 기본 상태에서는 image1 표시 -->
+        <img src="images/1.png" class="image1">
+
+        <!-- 기본 상태에서는 image2 숨김 -->
+        <img src="images/2.png" class="image2">
+    </div>
+
+    <!-- 클릭하면 photo의 swap 클래스를 추가/제거 -->
+    <button type="button" id="swap">change image</button>
+
+</body>
+</html>
