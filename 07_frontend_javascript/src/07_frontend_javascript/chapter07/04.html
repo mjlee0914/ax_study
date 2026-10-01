@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            const el = document.querySelector("a");
+            el.addEventListener("click", function(e) {
+                e.preventDefault();
+                alert("default action prevented!");
+                console.log("this:", this); // this를 이용해서 발생한 이벤트 접근 가능, <a> tag 출력
+            }) 
+        })
+    </script>
+    <a href="https://naver.com">네이버로 이동</a>
+</body>
+</html>

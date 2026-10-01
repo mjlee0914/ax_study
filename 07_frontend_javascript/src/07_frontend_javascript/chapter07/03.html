@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box {
+            padding: 150px;
+            background: gray;
+        }
+
+        .box2 {
+            background: orange;
+        }
+
+        .box3 {
+            background-color: black;
+        }
+    </style>
+    <script>
+        window.addEventListener("DOMContentLoaded", function(){
+            const box1 = document.querySelector(".box1");
+            const box2 = document.querySelector(".box2");
+            const box3 = document.querySelector(".box3");
+
+            box1.addEventListener("click", function(e){
+                console.log("box1 click!");
+                e.stopPropagation();
+            });
+
+            box2.addEventListener("click", function(e){
+                console.log("box2 click!");
+                e.stopImmediatePropagation(); 
+            });  
+            
+            box3.addEventListener("click", function(e){
+                console.log("box3 click!");
+                e.stopPropagation(); // 이벤트 전파 차단(다른이벤트 실행되지 않도록)
+            });        
+            // event의 전파 특성 -> DOM 트리를 위에서부터 차례대로 내려오는데, 이 과정을 캡쳐라고 부름
+        })
+    </script>
+    <div class="box box1">
+        <div class="box box2">
+            <div class="box box3"></div>
+        </div>
+    </div>
+</body>
+</html>
