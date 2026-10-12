@@ -8,5 +8,5 @@ export interface Product {
 }
 
 export default function Counter(): React.JSX.Element {
-    return <div>Counter!</div>; //<div>는 태그가 아닌 jsx 객체
+    return <div>Counter</div>; //<div>는 태그가 아닌 jsx 객체
 }
