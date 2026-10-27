@@ -18,7 +18,7 @@ class Book:
 
     @classmethod # 정적 접근하여 객체 생성 가능,  Book 객체를 만드는 역할. 
                 # 붙이면 객체가 없어도 클래스에서 바로 호출 가능
-    def create(self, book_id:int, title:str, author:str, status:str):
+    def create(cls, book_id:int, title:str, author:str, status:str):
         # status = AVALIABLE | RENTED
         if status not in ['AVAILABLE', 'RENTED']:
             raise ValueError("허용되지 않는 도서 상태입니다.")
@@ -30,7 +30,7 @@ class Book:
         if not author or not author.strip():
             raise ValueError("도서 저자는 필수 항목입니다.")
 
-        book = Book(book_id, title, author, status)
+        book = cls(book_id, title, author, status)
         book.created_at = datetime.now()
         
         return book
@@ -47,7 +47,8 @@ class Book:
 
         self.status = "AVAILABLE"
 
-    # 만들어진 Book 객체를 딕셔너리로 바꾸는 역할, FastAPI가 JSON으로 응답
+    # 만들어진 Book 객체를 딕셔너리로 바꾸는 역할
+    # FastAPI는 변환된 딕셔너리를 JSON으로 자동 변환
     def to_dict(self) -> dict:
         """
         네트워크로 전송할 수 있도록 도메인 객체를 기본 딕셔너리로 가공합니다.
@@ -57,6 +58,9 @@ class Book:
             "title": self.title,
             "author": self.author,
             "status": self.status,
+
+            # isoformat으로 해야 JSON으로 처리 가능 
+            # datetime객체는 JSON으로 직접 처리하기 어려움
             "created_at": self.created_at.isoformat()
         }
 

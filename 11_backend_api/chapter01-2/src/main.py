@@ -1,5 +1,6 @@
 import logging
-from fastapi import FastAPI, Body, HTTPException, status
+from typing import Optional # 매개변수 필수가 아님을 나타낼 때 사용
+from fastapi import FastAPI, Body, Query, HTTPException, status
 
 # book.py 안의 Book 클래스를 main.py로 가져옴
 # main.py에서 Book.create() 사용 가능 
@@ -12,13 +13,11 @@ logging.basicConfig(level=logging.INFO)
 
 logger = logging.getLogger("Book App")
 
-
-
 #브라우저
 #   ↓ GET /books
 #FastAPI
 #   ↓ get_books() 실행
-#["Book A", "Book B"]
+#["Book A0", "Book B"]
 #   ↓ JSON 변환
 #브라우저에 응답
 
@@ -55,3 +54,15 @@ async def create_book(
     except ValueError as err:
         logger.error(f"신규 도서 등록 실패: {str(err)}") # 에러메시지 출력, 꼼꼼히!
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(err))
+
+# http://127.0.0.1:8000/books?search_keyword=...
+@app.get("/books")
+                                    # search_keyword is optional string, if not Null
+                                    # 설정시 uv terminal: 
+                                    # INFO:     127.0.0.1:52855 - "GET /books HTTP/1.1" 200 OK
+                                    # INFO:Book App:search_keyword: None
+                                    # Query(alias)설정 시 주소창에 search_keyword대신 keyword 입력 가능
+                                    # Query(min_length=2)일 시 http://127.0.0.1:8000/books?keyword=1 이면 오류
+async def get_all_books(search_keyword:Optional[str] = Query(None, alias="keyword", description="검색 키워드", min_length=2)):
+    # search_keyword = search params
+    logger.info(f"search_keyword: {search_keyword}")

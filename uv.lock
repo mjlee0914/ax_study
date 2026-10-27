@@ -15,6 +15,7 @@ members = [
     "ax-study",
     "chapter01-1",
     "chapter01-2",
+    "chapter02-1",
 ]
 
 [[package]]
@@ -96,6 +97,23 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", specifier = ">=0.162.0" },
+    { name = "uvicorn", specifier = ">=0.54.0" },
+]
+
+[[package]]
+name = "chapter02-1"
+version = "0.1.0"
+source = { editable = "11_backend_api/chapter02-1" }
+dependencies = [
+    { name = "fastapi" },
+    { name = "pydantic" },
+    { name = "uvicorn" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "fastapi", specifier = ">=0.162.0" },
+    { name = "pydantic", specifier = ">=2.14.1" },
     { name = "uvicorn", specifier = ">=0.54.0" },
 ]
 
