@@ -28,4 +28,6 @@ members = [
     "11_backend_api/chapter01-1",
     "11_backend_api/chapter01-2",
     "11_backend_api/chapter02-1",
+    "11_backend_api/chapter03-1",
+    "11_backend_api/chapter03-2",
 ]
