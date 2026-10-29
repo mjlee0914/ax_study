@@ -244,3 +244,123 @@ X-TOKEN
 - 서버 인증/접근 검사
 
 ---
+
+[daily quest]
+SSR / CSR
+
+SSR
+
+- 서버에서 화면 조립
+- 초기 HTML은 내용이 포함됨
+- 첫 내용 표시는 CSR보다 빠름
+- 사용자가 내용을 빨리 볼 수 있음
+- 검색 엔진도 읽기 쉬움
+- SEO 유리: 서버가 완성된 HTML을 보냄
+- 화면 전환시 매번 서버 요청 가능
+- but 서버에서 DB조회가 오래 걸리면 처음 응답이 느릴 수 있다
+- FastAPI, Jinja2
+
+CSR
+
+- 브라우저에서 화면 조립
+- 초기 HTML: 비어있거나 최소 뼈대로 구성됨
+- 첫 내용은 JS실행 및 데이터 요청 후 표시됨
+- SEO 불리할 수 있음
+- 화면 전환시 JS로 부드럽게 전환하기 좋음
+- JS 파일이 작고 캐시되어 있는 상태이면 이후에 화면 전환이 빠를 수 있음
+- React
+
+\*SEO(Search Engine Optimization): google, naver같은 검색엔진이 내 웹페이지 내용을 잘 읽고 검색 결과에 잘 노출하도록 만드는 작업
+
+- Jinja2는 기본적으로 SSR방식이라 일반적인 CSR React 앱보다 SEO에 유리함.
+
+```
+FastAPI + Jinja2
+서버에서 HTML 완성
+        ↓
+<h1>주문 목록</h1>
+<p>사과</p>
+        ↓
+브라우저·검색 엔진에 전달
+```
+
+```
+React CSR
+빈 HTML + JS
+        ↓
+JS 실행
+        ↓
+API 요청
+        ↓
+화면 내용 생성
+```
+
+```
+즉,
+
+Jinja2 SSR
+→ 완성된 HTML을 즉시 제공
+→ SEO에 유리
+
+React CSR
+→ JavaScript 실행 뒤 내용 생성
+→ SEO에 불리할 수 있음
+```
+
+- React는 항상 CSR은 아님.
+  - React+Vite = CSR
+  - React+Next.js = SSR / SSG 가능, SEO에 유리하게 만들 수 있다
+
+---
+
+`{% extends %}`와 `{% include %}`의 용도 차이
+
+```
+extends = 페이지의 전체 뼈대를 상속
+include = 필요한 HTML 조각을 끼워 넣기
+```
+
+`{% extends %}`: 공통 레이아웃 기반으로 한 페이지 전체를 만든다. "페이지 전체 레이아웃"
+ex)
+
+```jinja2
+practice3.html
+
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+  <h1>연습 페이지</h1>
+{% endblock %}
+```
+
+```jinja2
+base.html
+
+<!doctype html>
+<html>
+  <body>
+    {% include 'outlines/header.html' %}
+
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+
+    {% include 'outlines/footer.html' %}
+  </body>
+</html>
+```
+
+- base.html의 header와 footer 사이에 practice3.html의 content block 내용이 들어간다.
+
+`{% include %}`: 다른 파일의 내용을 현재 위치에 그대로 삽입한다. "조각조각 삽입"
+ex)
+
+```jinja2
+<body>
+  {% include 'outlines/header.html' %}
+
+  <h1>주문 목록</h1>
+
+  {% include 'outlines/footer.html' %}
+</body>
+```
