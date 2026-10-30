@@ -1,0 +1,8 @@
+.venv/
+.DS_Store
+node_modules/
+
+# 환경 변수 (비밀번호, API 키)
+.env
+.env.*
+!.env.example
