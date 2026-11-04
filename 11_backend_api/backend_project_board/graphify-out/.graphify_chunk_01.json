@@ -1,0 +1,319 @@
+{
+  "nodes": [
+    {
+      "id": "github_copilot_instructions_graphify",
+      "label": "Graphify",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "github_copilot_instructions_query",
+      "label": "Graphify Query",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "github_copilot_instructions_path",
+      "label": "Graphify Path",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "github_copilot_instructions_explain",
+      "label": "Graphify Explain",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "github_copilot_instructions_wiki_index",
+      "label": "Graphify Wiki Index",
+      "file_type": "document",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "github_copilot_instructions_graph_report",
+      "label": "Graphify Graph Report",
+      "file_type": "document",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_dataclass",
+      "label": "Python Dataclass",
+      "file_type": "rationale",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_domain_entity",
+      "label": "Domain Entity",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_board",
+      "label": "Board Entity",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_authority",
+      "label": "Authority Value Object",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_user",
+      "label": "User Domain Entity",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_user_model",
+      "label": "UserModel ORM Model",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "author": null,
+      "captured_at": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_sqlalchemy_model",
+      "label": "SQLAlchemy Model",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_pydantic_model",
+      "label": "Pydantic Model",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "author": null,
+      "captured_at": null,
+      "contributor": null
+    },
+    {
+      "id": "_specstory_history_2026_11_03_02_11_45z_dataclass_graphify",
+      "label": "Graphify",
+      "file_type": "concept",
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "github_copilot_instructions_graphify",
+      "target": "github_copilot_instructions_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "github_copilot_instructions_graphify",
+      "target": "github_copilot_instructions_path",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "github_copilot_instructions_graphify",
+      "target": "github_copilot_instructions_explain",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "github_copilot_instructions_graphify",
+      "target": "github_copilot_instructions_wiki_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "github_copilot_instructions_graphify",
+      "target": "github_copilot_instructions_graph_report",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_dataclass",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_domain_entity",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_board",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_dataclass",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_authority",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_dataclass",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_user",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_domain_entity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_user_model",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_user",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_sqlalchemy_model",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_user_model",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_user_model",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_user",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_pydantic_model",
+      "target": "_specstory_history_2026_11_03_02_11_45z_dataclass_domain_entity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_specstory_history_2026_11_03_02_11_45z_dataclass_graphify",
+      "target": "github_copilot_instructions_graphify",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "coverage": {
+    "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md": 17,
+    "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md": 1109,
+    "/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/README.md": 0
+  }
+}
