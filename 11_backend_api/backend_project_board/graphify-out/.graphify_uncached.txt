@@ -1,0 +1,3 @@
+/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.github/copilot-instructions.md
+/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/.specstory/history/2026-11-03_02-11-45Z-dataclass.md
+/Users/myungjilee/Desktop/Kant/ax_study/11_backend_api/backend_project_new/README.md
