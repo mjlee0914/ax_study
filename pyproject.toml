@@ -44,4 +44,5 @@ members = [
     "11_backend_api/chapter04-2",
     "11_backend_api/chapter05-1",
     "12_rag/chapter01",
+    "12_rag/chapter02",
 ]
