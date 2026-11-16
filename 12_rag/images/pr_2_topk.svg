@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420" font-family="-apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+<rect width="680" height="420" fill="#fcfcfb" rx="8"/>
+<text x="30" y="34" font-size="17" font-weight="700" fill="#0b0b0b">② 문서를 많이 가져올수록? (정밀도 ↔ 재현율 시소)</text>
+<text x="30" y="56" font-size="12.5" fill="#52514e">관련 문서가 총 5개 있을 때, 검색 결과를 몇 개(top-k)까지 가져오느냐에 따라</text>
+<line x1="70" x2="540" y1="350.0" y2="350.0" stroke="#e4e3df"/>
+<text x="62" y="354.0" font-size="11" fill="#52514e" text-anchor="end">0%</text>
+<line x1="70" x2="540" y1="282.5" y2="282.5" stroke="#e4e3df"/>
+<text x="62" y="286.5" font-size="11" fill="#52514e" text-anchor="end">25%</text>
+<line x1="70" x2="540" y1="215.0" y2="215.0" stroke="#e4e3df"/>
+<text x="62" y="219.0" font-size="11" fill="#52514e" text-anchor="end">50%</text>
+<line x1="70" x2="540" y1="147.5" y2="147.5" stroke="#e4e3df"/>
+<text x="62" y="151.5" font-size="11" fill="#52514e" text-anchor="end">75%</text>
+<line x1="70" x2="540" y1="80.0" y2="80.0" stroke="#e4e3df"/>
+<text x="62" y="84.0" font-size="11" fill="#52514e" text-anchor="end">100%</text>
+<text x="70.0" y="368" font-size="11" fill="#52514e" text-anchor="middle">1</text>
+<text x="168.9" y="368" font-size="11" fill="#52514e" text-anchor="middle">5</text>
+<text x="292.6" y="368" font-size="11" fill="#52514e" text-anchor="middle">10</text>
+<text x="416.3" y="368" font-size="11" fill="#52514e" text-anchor="middle">15</text>
+<text x="540.0" y="368" font-size="11" fill="#52514e" text-anchor="middle">20</text>
+<line x1="70" x2="540" y1="350" y2="350" stroke="#52514e"/>
+<text x="305.0" y="390" font-size="12" fill="#52514e" text-anchor="middle">가져온 문서 수 (top-k)</text>
+<line x1="168.9" x2="168.9" y1="80" y2="350" stroke="#a3a29c" stroke-dasharray="4 4"/>
+<text x="174.9" y="92" font-size="11.5" fill="#52514e">k=5: 정밀도 60% · 재현율 60%</text>
+<path d="M70.0,80.0 L94.7,80.0 L119.5,170.0 L144.2,147.5 L168.9,188.0 L193.7,215.0 L218.4,195.7 L243.2,215.0 L267.9,230.0 L292.6,242.0 L317.4,251.8 L342.1,237.5 L366.8,246.2 L391.6,253.6 L416.3,260.0 L441.1,265.6 L465.8,270.6 L490.5,275.0 L515.3,278.9 L540.0,282.5" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="540.0" cy="282.5" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="550.0" y="286.5" font-size="12.5" font-weight="600" fill="#0b0b0b">정밀도 25%</text>
+<path d="M70.0,296.0 L94.7,242.0 L119.5,242.0 L144.2,188.0 L168.9,188.0 L193.7,188.0 L218.4,134.0 L243.2,134.0 L267.9,134.0 L292.6,134.0 L317.4,134.0 L342.1,80.0 L366.8,80.0 L391.6,80.0 L416.3,80.0 L441.1,80.0 L465.8,80.0 L490.5,80.0 L515.3,80.0 L540.0,80.0" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="540.0" cy="80.0" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="550.0" y="84.0" font-size="12.5" font-weight="600" fill="#0b0b0b">재현율 100%</text>
+<text x="366.8" y="112.4" font-size="12" fill="#52514e">많이 가져올수록 놓치는 게 줄어듦 ↑</text>
+<text x="243.2" y="177.2" font-size="12" fill="#52514e">대신 쓰레기도 섞여서 비율 ↓</text>
+<text x="30" y="408" font-size="11" fill="#52514e">※ 관련 문서가 검색 결과 1·2·4·7·12등에 있다고 가정한 예시</text>
+</svg>

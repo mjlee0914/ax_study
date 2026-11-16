@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" width="640" height="350" font-family="-apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+<rect width="640" height="350" fill="#fcfcfb" rx="8"/>
+<text x="30" y="34" font-size="17" font-weight="700" fill="#0b0b0b">① 리랭킹 전체 흐름: 후보를 점점 줄여 나간다</text>
+<text x="30" y="56" font-size="12.5" fill="#52514e">많이 → 빠르게 대충 / 적게 → 느리게 꼼꼼히</text>
+<rect x="40.0" y="84" width="520" height="52" rx="6" fill="#a3a29c" fill-opacity="0.16" stroke="#a3a29c" stroke-width="2"/>
+<text x="300" y="106" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">전체 문서</text>
+<text x="300" y="124" font-size="13" fill="#52514e" text-anchor="middle">10,000개</text>
+<path d="M300,139 L300,152" stroke="#52514e" stroke-width="2"/>
+<path d="M295,147 L300,153 L305,147" fill="none" stroke="#52514e" stroke-width="2"/>
+<rect x="130.0" y="156" width="340" height="52" rx="6" fill="#eb6834" fill-opacity="0.16" stroke="#eb6834" stroke-width="2"/>
+<text x="300" y="178" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">[1차] BM25 + 벡터 검색 → RRF</text>
+<text x="300" y="196" font-size="13" fill="#52514e" text-anchor="middle">후보 50개</text>
+<text x="484.0" y="187" font-size="12.5" fill="#52514e">⚡ 빠름 · 대충</text>
+<path d="M300,211 L300,224" stroke="#52514e" stroke-width="2"/>
+<path d="M295,219 L300,225 L305,219" fill="none" stroke="#52514e" stroke-width="2"/>
+<rect x="215.0" y="228" width="170" height="52" rx="6" fill="#2a78d6" fill-opacity="0.16" stroke="#2a78d6" stroke-width="2"/>
+<text x="300" y="250" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="middle">[2차] 리랭커 (Cross-Encoder)</text>
+<text x="300" y="268" font-size="13" fill="#52514e" text-anchor="middle">상위 5개</text>
+<text x="399.0" y="259" font-size="12.5" fill="#52514e">🎯 느림 · 꼼꼼</text>
+<path d="M300,283 L300,296" stroke="#52514e" stroke-width="2"/>
+<path d="M295,291 L300,297 L305,291" fill="none" stroke="#52514e" stroke-width="2"/>
+<text x="300" y="315" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">🤖 LLM이 답변 생성</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" font-family="-apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+<rect width="700" height="400" fill="#fcfcfb" rx="8"/>
+<text x="30" y="34" font-size="17" font-weight="700" fill="#0b0b0b">② 정밀도와 재현율이 비슷할 때 vs 차이 날 때</text>
+<text x="30" y="56" font-size="12.5" fill="#52514e">비슷하면 평균과 F1이 거의 같고, 차이 나면 F1이 확 떨어진다</text>
+<line x1="70" x2="660" y1="330.0" y2="330.0" stroke="#e4e3df"/>
+<text x="62" y="334.0" font-size="11" fill="#52514e" text-anchor="end">0</text>
+<line x1="70" x2="660" y1="275.0" y2="275.0" stroke="#e4e3df"/>
+<text x="62" y="279.0" font-size="11" fill="#52514e" text-anchor="end">25</text>
+<line x1="70" x2="660" y1="220.0" y2="220.0" stroke="#e4e3df"/>
+<text x="62" y="224.0" font-size="11" fill="#52514e" text-anchor="end">50</text>
+<line x1="70" x2="660" y1="165.0" y2="165.0" stroke="#e4e3df"/>
+<text x="62" y="169.0" font-size="11" fill="#52514e" text-anchor="end">75</text>
+<line x1="70" x2="660" y1="110.0" y2="110.0" stroke="#e4e3df"/>
+<text x="62" y="114.0" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<rect x="70" y="72" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="88" y="82" font-size="12" fill="#52514e">그냥 평균</text>
+<rect x="170" y="72" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="188" y="82" font-size="12" fill="#52514e">F1</text>
+<path d="M111.33333333333331,330 L111.33333333333331,185.5 Q111.33333333333331,181.5 115.33333333333331,181.5 L163.33333333333331,181.5 Q167.33333333333331,181.5 167.33333333333331,185.5 L167.33333333333331,330 Z" fill="#eb6834"/>
+<text x="139.33333333333331" y="175.5" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">68</text>
+<path d="M169.33333333333331,330 L169.33333333333331,187.33333333333337 Q169.33333333333331,183.33333333333337 173.33333333333331,183.33333333333337 L221.33333333333331,183.33333333333337 Q225.33333333333331,183.33333333333337 225.33333333333331,187.33333333333337 L225.33333333333331,330 Z" fill="#2a78d6"/>
+<text x="197.33333333333331" y="177.3" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">67</text>
+<text x="168.33333333333331" y="350" font-size="12" fill="#0b0b0b" text-anchor="middle">정밀도 75 · 재현율 60</text>
+<path d="M308.0,330 L308.0,213.0 Q308.0,209.0 312.0,209.0 L360.0,209.0 Q364.0,209.0 364.0,213.0 L364.0,330 Z" fill="#eb6834"/>
+<text x="336.0" y="203.0" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">55</text>
+<path d="M366.0,330 L366.0,294.0 Q366.0,290.0 370.0,290.0 L418.0,290.0 Q422.0,290.0 422.0,294.0 L422.0,330 Z" fill="#2a78d6"/>
+<text x="394.0" y="284.0" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">18</text>
+<text x="365.0" y="350" font-size="12" fill="#0b0b0b" text-anchor="middle">정밀도 100 · 재현율 10</text>
+<path d="M504.66666666666663,330 L504.66666666666663,221.8 Q504.66666666666663,217.8 508.66666666666663,217.8 L556.6666666666666,217.8 Q560.6666666666666,217.8 560.6666666666666,221.8 L560.6666666666666,330 Z" fill="#eb6834"/>
+<text x="532.6666666666666" y="211.8" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">51</text>
+<path d="M562.6666666666666,330 L562.6666666666666,325.37254901960785 Q562.6666666666666,321.37254901960785 566.6666666666666,321.37254901960785 L614.6666666666666,321.37254901960785 Q618.6666666666666,321.37254901960785 618.6666666666666,325.37254901960785 L618.6666666666666,330 Z" fill="#2a78d6"/>
+<text x="590.6666666666666" y="315.4" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">4</text>
+<text x="561.6666666666666" y="350" font-size="12" fill="#0b0b0b" text-anchor="middle">정밀도 2 · 재현율 100</text>
+<line x1="70" x2="660" y1="330" y2="330" stroke="#52514e"/>
+<text x="168.33333333333331" y="368" font-size="11.5" fill="#52514e" text-anchor="middle">✅ 거의 같음</text>
+<text x="365.0" y="368" font-size="11.5" fill="#52514e" text-anchor="middle">🚨 F1 확 떨어짐</text>
+<text x="561.6666666666666" y="368" font-size="11.5" fill="#52514e" text-anchor="middle">🚨 꼼수 검색기</text>
+</svg>
