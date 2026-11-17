@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="-apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+<rect width="760" height="380" fill="#fcfcfb" rx="8"/>
+<text x="30" y="34" font-size="17" font-weight="700" fill="#0b0b0b">① 토크나이저별로 원하는 문서를 찾았나?</text>
+<text x="30" y="56" font-size="12.5" fill="#52514e">chapter05 사내 IT 규정 예시 · 정답 문서가 1등으로 나오면 ✅</text>
+<text x="245.0" y="86" font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">"VPN"</text>
+<text x="245.0" y="102" font-size="11" fill="#52514e" text-anchor="middle">조사 붙은 단어</text>
+<text x="375.0" y="86" font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">"재택 근무"</text>
+<text x="375.0" y="102" font-size="11" fill="#52514e" text-anchor="middle">문서와 똑같이</text>
+<text x="505.0" y="86" font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">"재택근무"</text>
+<text x="505.0" y="102" font-size="11" fill="#52514e" text-anchor="middle">붙여 씀</text>
+<text x="635.0" y="86" font-size="13.5" font-weight="700" fill="#0b0b0b" text-anchor="middle">"비밀 번호"</text>
+<text x="635.0" y="102" font-size="11" fill="#52514e" text-anchor="middle">띄어 씀</text>
+<text x="30" y="138" font-size="14" font-weight="700" fill="#0b0b0b">기본</text>
+<text x="30" y="156" font-size="11.5" fill="#52514e">띄어쓰기로 자르기</text>
+<rect x="184" y="110" width="122" height="62" rx="8" fill="#fbe9e9"/>
+<text x="245.0" y="138" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">❌ 못 찾음</text>
+<text x="245.0" y="157" font-size="11" fill="#52514e" text-anchor="middle">점수 0.00</text>
+<rect x="314" y="110" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="375.0" y="138" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="375.0" y="157" font-size="11" fill="#52514e" text-anchor="middle">점수 2.03</text>
+<rect x="444" y="110" width="122" height="62" rx="8" fill="#fbe9e9"/>
+<text x="505.0" y="138" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">❌ 못 찾음</text>
+<text x="505.0" y="157" font-size="11" fill="#52514e" text-anchor="middle">점수 0.00</text>
+<rect x="574" y="110" width="122" height="62" rx="8" fill="#fbe9e9"/>
+<text x="635.0" y="138" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">❌ 못 찾음</text>
+<text x="635.0" y="157" font-size="11" fill="#52514e" text-anchor="middle">점수 0.00</text>
+<text x="714" y="147" font-size="15" font-weight="700" fill="#0b0b0b">1/4</text>
+<text x="30" y="208" font-size="14" font-weight="700" fill="#0b0b0b">kiwi</text>
+<text x="30" y="226" font-size="11.5" fill="#52514e">형태소 분석</text>
+<rect x="184" y="180" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="245.0" y="208" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="245.0" y="227" font-size="11" fill="#52514e" text-anchor="middle">점수 0.91</text>
+<rect x="314" y="180" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="375.0" y="208" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="375.0" y="227" font-size="11" fill="#52514e" text-anchor="middle">점수 2.17</text>
+<rect x="444" y="180" width="122" height="62" rx="8" fill="#fbe9e9"/>
+<text x="505.0" y="208" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">❌ 못 찾음</text>
+<text x="505.0" y="227" font-size="11" fill="#52514e" text-anchor="middle">점수 0.00</text>
+<rect x="574" y="180" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="635.0" y="208" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="635.0" y="227" font-size="11" fill="#52514e" text-anchor="middle">점수 1.81</text>
+<text x="714" y="217" font-size="15" font-weight="700" fill="#0b0b0b">3/4</text>
+<text x="30" y="278" font-size="14" font-weight="700" fill="#0b0b0b">2-gram</text>
+<text x="30" y="296" font-size="11.5" fill="#52514e">글자 2개씩</text>
+<rect x="184" y="250" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="245.0" y="278" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="245.0" y="297" font-size="11" fill="#52514e" text-anchor="middle">점수 1.68</text>
+<rect x="314" y="250" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="375.0" y="278" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="375.0" y="297" font-size="11" fill="#52514e" text-anchor="middle">점수 2.89</text>
+<rect x="444" y="250" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="505.0" y="278" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="505.0" y="297" font-size="11" fill="#52514e" text-anchor="middle">점수 2.89</text>
+<rect x="574" y="250" width="122" height="62" rx="8" fill="#e6f4e6"/>
+<text x="635.0" y="278" font-size="14" font-weight="700" fill="#0b0b0b" text-anchor="middle">✅ 찾음</text>
+<text x="635.0" y="297" font-size="11" fill="#52514e" text-anchor="middle">점수 2.56</text>
+<text x="714" y="287" font-size="15" font-weight="700" fill="#0b0b0b">4/4</text>
+<text x="714" y="102" font-size="11" fill="#52514e">성공</text>
+<text x="30" y="346" font-size="11.5" fill="#52514e">※ 점수는 같은 토크나이저 안에서 문서끼리 비교하는 값이라, 토크나이저끼리(행끼리) 크기를 비교하면 안 됨</text>
+<text x="30" y="364" font-size="11.5" fill="#52514e">※ 점수 0 = 겹치는 단어가 하나도 없음 → 그래도 BM25Retriever는 아무 문서나 k개를 채워서 돌려줌</text>
+</svg>

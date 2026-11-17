@@ -1,3 +1,7 @@
 {
-  "specstory.cloudSync.enabled": "never"
+  "specstory.cloudSync.enabled": "never",
+  "python.defaultInterpreterPath": "/Users/myungjilee/Desktop/Kant/ax_study/.venv/bin/python",
+  "python.venvFolders": ["/Users/myungjilee/Desktop/Kant/ax_study"],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic"
 }

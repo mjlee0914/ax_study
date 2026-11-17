@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" width="780" height="560" font-family="-apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="780" height="560" fill="#fcfcfb" rx="8"/>
+<text x="30" y="34" font-size="17" font-weight="700" fill="#0b0b0b">① 하이브리드 결과 개수는 어떻게 정해지나?</text>
+<text x="30" y="56" font-size="12.5" fill="#52514e">EnsembleRetriever엔 k가 없음 → 각 retriever의 k로 후보를 모으고, 마지막에 슬라이싱으로 자름</text>
+<text x="30" y="104" font-size="13.5" font-weight="700" fill="#0b0b0b">🔤 BM25</text>
+<text x="30" y="121" font-size="11" fill="#52514e">bm25_retriever.k = 2</text>
+<g><rect x="170" y="92" width="46" height="30" rx="6" fill="#7c4dcc"/><text x="193.0" y="112" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">A</text></g>
+<g><rect x="222" y="92" width="46" height="30" rx="6" fill="#2a78d6"/><text x="245.0" y="112" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">B</text></g>
+<text x="30" y="174" font-size="13.5" font-weight="700" fill="#0b0b0b">🧠 벡터</text>
+<text x="30" y="191" font-size="11" fill="#52514e">search_kwargs k = 2</text>
+<g><rect x="170" y="162" width="46" height="30" rx="6" fill="#2a78d6"/><text x="193.0" y="182" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">B</text></g>
+<g><rect x="222" y="162" width="46" height="30" rx="6" fill="#eb6834"/><text x="245.0" y="182" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">C</text></g>
+<line x1="280" y1="107" x2="330" y2="132" stroke="#52514e" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="280" y1="177" x2="330" y2="152" stroke="#52514e" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="335" y="105" width="150" height="74" rx="10" fill="#f0efec" stroke="#a3a29c"/>
+<text x="410" y="132" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="middle">가중치 RRF로 합치기</text>
+<text x="410" y="151" font-size="11" fill="#52514e" text-anchor="middle">겹친 B는 1개로 + 점수 ⬆️</text>
+<text x="410" y="167" font-size="11" fill="#52514e" text-anchor="middle">점수 순으로 정렬</text>
+<line x1="490" y1="142" x2="535" y2="142" stroke="#52514e" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="545" y="104" font-size="12.5" font-weight="700" fill="#0b0b0b">invoke() 결과 = 3개</text>
+<g><rect x="545" y="127" width="46" height="30" rx="6" fill="#2a78d6"/><text x="568.0" y="147" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">B</text></g>
+<text x="568" y="175" font-size="10.5" fill="#52514e" text-anchor="middle">1등</text>
+<g><rect x="597" y="127" width="46" height="30" rx="6" fill="#7c4dcc"/><text x="620.0" y="147" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">A</text></g>
+<text x="620" y="175" font-size="10.5" fill="#52514e" text-anchor="middle">2등</text>
+<g><rect x="649" y="127" width="46" height="30" rx="6" fill="#eb6834"/><text x="672.0" y="147" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">C</text></g>
+<text x="672" y="175" font-size="10.5" fill="#52514e" text-anchor="middle">3등</text>
+<text x="545" y="198" font-size="11" fill="#52514e">최대 k1 + k2 = 4개 (겹치면 줄어듦)</text>
+<line x1="30" x2="750" y1="222" y2="222" stroke="#e4e3df"/>
+<rect x="30" y="240" width="720" height="140" rx="10" fill="#fbe9e9"/>
+<text x="48" y="266" font-size="14" font-weight="700" fill="#d03b3b">❌ 출력할 때만 자르기</text>
+<text x="48" y="290" font-size="12.5" fill="#0b0b0b" font-family="Menlo, monospace">for i, doc in enumerate(searched_docs[:2], 1): ...</text>
+<text x="48" y="328" font-size="12" font-weight="600" fill="#0b0b0b">🖥️ 화면 출력</text>
+<g><rect x="150" y="308" width="46" height="30" rx="6" fill="#2a78d6"/><text x="173.0" y="328" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">B</text></g>
+<g><rect x="202" y="308" width="46" height="30" rx="6" fill="#7c4dcc"/><text x="225.0" y="328" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">A</text></g>
+<g opacity="0.35"><rect x="254" y="308" width="46" height="30" rx="6" fill="#eb6834"/><text x="277.0" y="328" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">C</text></g>
+<text x="360" y="328" font-size="12" font-weight="600" fill="#0b0b0b">🤖 LLM에 넘어가는 것</text>
+<g><rect x="510" y="308" width="46" height="30" rx="6" fill="#2a78d6"/><text x="533.0" y="328" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">B</text></g>
+<g><rect x="562" y="308" width="46" height="30" rx="6" fill="#7c4dcc"/><text x="585.0" y="328" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">A</text></g>
+<g><rect x="614" y="308" width="46" height="30" rx="6" fill="#eb6834"/><text x="637.0" y="328" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">C</text></g>
+<text x="48" y="364" font-size="12" fill="#d03b3b" font-weight="600">화면엔 2개처럼 보이지만 searched_docs 안엔 여전히 3개 → LLM엔 다 들어감</text>
+<rect x="30" y="396" width="720" height="140" rx="10" fill="#e6f4e6"/>
+<text x="48" y="422" font-size="14" font-weight="700" fill="#0ca30c">✅ 변수 자체를 자르기</text>
+<text x="48" y="446" font-size="12.5" fill="#0b0b0b" font-family="Menlo, monospace">searched_docs = searched_docs[:2]</text>
+<text x="48" y="484" font-size="12" font-weight="600" fill="#0b0b0b">🖥️ 화면 출력</text>
+<g><rect x="150" y="464" width="46" height="30" rx="6" fill="#2a78d6"/><text x="173.0" y="484" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">B</text></g>
+<g><rect x="202" y="464" width="46" height="30" rx="6" fill="#7c4dcc"/><text x="225.0" y="484" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">A</text></g>
+<g opacity="0.35"><rect x="254" y="464" width="46" height="30" rx="6" fill="#eb6834"/><text x="277.0" y="484" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">C</text></g>
+<text x="360" y="484" font-size="12" font-weight="600" fill="#0b0b0b">🤖 LLM에 넘어가는 것</text>
+<g><rect x="510" y="464" width="46" height="30" rx="6" fill="#2a78d6"/><text x="533.0" y="484" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">B</text></g>
+<g><rect x="562" y="464" width="46" height="30" rx="6" fill="#7c4dcc"/><text x="585.0" y="484" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">A</text></g>
+<g opacity="0.35"><rect x="614" y="464" width="46" height="30" rx="6" fill="#eb6834"/><text x="637.0" y="484" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">C</text></g>
+<text x="48" y="520" font-size="12" fill="#0ca30c" font-weight="600">화면도 LLM도 똑같이 top-2 → 진짜 top-k</text>
+<text x="30" y="546" font-size="11" fill="#52514e">※ 문서 A·B·C와 등수는 이해를 돕기 위한 가상 예시 (흐린 칸 = 잘려 나간 문서)</text>
+</svg>

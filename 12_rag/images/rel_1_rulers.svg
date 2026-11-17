@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" font-family="-apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+<rect width="760" height="600" fill="#fcfcfb" rx="8"/>
+<text x="30" y="34" font-size="17" font-weight="700" fill="#0b0b0b">① 같은 문서, 두 개의 눈금자</text>
+<text x="30" y="56" font-size="12.5" fill="#52514e">질문: "강아지가 초콜릿 먹으면?" · 기준선 = 거리 0.7 = 관련도 0.3</text>
+<rect x="120" y="90" width="406.0" height="270" fill="#e8f1fb"/>
+<rect x="526.0" y="90" width="174.0" height="270" fill="#fbeee8"/>
+<text x="323.0" y="108" font-size="12.5" font-weight="600" fill="#2a78d6" text-anchor="middle">✅ 가져옴</text>
+<text x="613.0" y="108" font-size="12.5" font-weight="600" fill="#eb6834" text-anchor="middle">❌ 버림</text>
+<line x1="526.0" x2="526.0" y1="90" y2="360" stroke="#0b0b0b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="526.0" y="376" font-size="12" font-weight="700" fill="#0b0b0b" text-anchor="middle">기준선 (score_threshold)</text>
+<text x="104" y="138" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="end">거리</text>
+<text x="104" y="155" font-size="11" fill="#52514e" text-anchor="end">작을수록 좋음</text>
+<line x1="120" x2="700" y1="140" y2="140" stroke="#52514e" stroke-width="2"/>
+<line x1="120.0" x2="120.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="120.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0</text>
+<line x1="178.0" x2="178.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="178.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.1</text>
+<line x1="236.0" x2="236.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="236.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.2</text>
+<line x1="294.0" x2="294.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="294.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.3</text>
+<line x1="352.0" x2="352.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="352.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.4</text>
+<line x1="410.0" x2="410.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="410.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.5</text>
+<line x1="468.0" x2="468.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="468.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.6</text>
+<line x1="526.0" x2="526.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="526.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.7</text>
+<line x1="584.0" x2="584.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="584.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.8</text>
+<line x1="642.0" x2="642.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="642.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">0.9</text>
+<line x1="700.0" x2="700.0" y1="135" y2="145" stroke="#52514e"/>
+<text x="700.0" y="160" font-size="10.5" fill="#52514e" text-anchor="middle">1</text>
+<text x="104" y="308" font-size="13" font-weight="700" fill="#0b0b0b" text-anchor="end">관련도</text>
+<text x="104" y="325" font-size="11" fill="#52514e" text-anchor="end">클수록 좋음</text>
+<line x1="120" x2="700" y1="310" y2="310" stroke="#52514e" stroke-width="2"/>
+<line x1="120.0" x2="120.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="120.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">1</text>
+<line x1="178.0" x2="178.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="178.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.9</text>
+<line x1="236.0" x2="236.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="236.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.8</text>
+<line x1="294.0" x2="294.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="294.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.7</text>
+<line x1="352.0" x2="352.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="352.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.6</text>
+<line x1="410.0" x2="410.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="410.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.5</text>
+<line x1="468.0" x2="468.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="468.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.4</text>
+<line x1="526.0" x2="526.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="526.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.3</text>
+<line x1="584.0" x2="584.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="584.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.2</text>
+<line x1="642.0" x2="642.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="642.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0.1</text>
+<line x1="700.0" x2="700.0" y1="305" y2="315" stroke="#52514e"/>
+<text x="700.0" y="330" font-size="10.5" fill="#52514e" text-anchor="middle">0</text>
+<line x1="207.0" x2="207.0" y1="140" y2="310" stroke="#2a78d6" stroke-width="1.5" stroke-dasharray="2 3"/>
+<circle cx="207.0" cy="140" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="207.0" cy="310" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="207.0" y="230.0" font-size="16" font-weight="700" fill="#2a78d6" text-anchor="middle">①</text>
+<line x1="305.6" x2="305.6" y1="140" y2="310" stroke="#2a78d6" stroke-width="1.5" stroke-dasharray="2 3"/>
+<circle cx="305.6" cy="140" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="305.6" cy="310" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="305.6" y="230.0" font-size="16" font-weight="700" fill="#2a78d6" text-anchor="middle">②</text>
+<line x1="439.0" x2="439.0" y1="140" y2="310" stroke="#2a78d6" stroke-width="1.5" stroke-dasharray="2 3"/>
+<circle cx="439.0" cy="140" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="439.0" cy="310" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="439.0" y="230.0" font-size="16" font-weight="700" fill="#2a78d6" text-anchor="middle">③</text>
+<line x1="572.4000000000001" x2="572.4000000000001" y1="140" y2="310" stroke="#eb6834" stroke-width="1.5" stroke-dasharray="2 3"/>
+<circle cx="572.4000000000001" cy="140" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="572.4000000000001" cy="310" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="572.4000000000001" y="230.0" font-size="16" font-weight="700" fill="#eb6834" text-anchor="middle">④</text>
+<line x1="653.6" x2="653.6" y1="140" y2="310" stroke="#eb6834" stroke-width="1.5" stroke-dasharray="2 3"/>
+<circle cx="653.6" cy="140" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="653.6" cy="310" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="653.6" y="230.0" font-size="16" font-weight="700" fill="#eb6834" text-anchor="middle">⑤</text>
+<text x="30" y="408" font-size="12" font-weight="700" fill="#0b0b0b">문서</text>
+<text x="330" y="408" font-size="12" font-weight="700" fill="#0b0b0b">거리</text>
+<text x="410" y="408" font-size="12" font-weight="700" fill="#0b0b0b">관련도</text>
+<text x="500" y="408" font-size="12" font-weight="700" fill="#0b0b0b">결과</text>
+<text x="30" y="430" font-size="12.5" fill="#2a78d6" font-weight="700">①</text>
+<text x="52" y="430" font-size="12.5" fill="#0b0b0b">중독 증상과 응급처치</text>
+<text x="330" y="430" font-size="12.5" fill="#0b0b0b">0.15</text>
+<text x="410" y="430" font-size="12.5" fill="#0b0b0b">0.85</text>
+<text x="500" y="430" font-size="12.5" fill="#0b0b0b">✅ 가져옴</text>
+<text x="30" y="452" font-size="12.5" fill="#2a78d6" font-weight="700">②</text>
+<text x="52" y="452" font-size="12.5" fill="#0b0b0b">먹으면 안 되는 음식</text>
+<text x="330" y="452" font-size="12.5" fill="#0b0b0b">0.32</text>
+<text x="410" y="452" font-size="12.5" fill="#0b0b0b">0.68</text>
+<text x="500" y="452" font-size="12.5" fill="#0b0b0b">✅ 가져옴</text>
+<text x="30" y="474" font-size="12.5" fill="#2a78d6" font-weight="700">③</text>
+<text x="52" y="474" font-size="12.5" fill="#0b0b0b">간식 추천: 초콜릿맛 쿠키</text>
+<text x="330" y="474" font-size="12.5" fill="#0b0b0b">0.55</text>
+<text x="410" y="474" font-size="12.5" fill="#0b0b0b">0.45</text>
+<text x="500" y="474" font-size="12.5" fill="#0b0b0b">✅ 가져옴</text>
+<text x="30" y="496" font-size="12.5" fill="#eb6834" font-weight="700">④</text>
+<text x="52" y="496" font-size="12.5" fill="#0b0b0b">초콜릿의 역사</text>
+<text x="330" y="496" font-size="12.5" fill="#0b0b0b">0.78</text>
+<text x="410" y="496" font-size="12.5" fill="#0b0b0b">0.22</text>
+<text x="500" y="496" font-size="12.5" fill="#0b0b0b">❌ 버림</text>
+<text x="30" y="518" font-size="12.5" fill="#eb6834" font-weight="700">⑤</text>
+<text x="52" y="518" font-size="12.5" fill="#0b0b0b">고양이 사료 고르는 법</text>
+<text x="330" y="518" font-size="12.5" fill="#0b0b0b">0.92</text>
+<text x="410" y="518" font-size="12.5" fill="#0b0b0b">0.08</text>
+<text x="500" y="518" font-size="12.5" fill="#0b0b0b">❌ 버림</text>
+<text x="30" y="586" font-size="11" fill="#52514e">※ 문서와 점수는 이해를 돕기 위한 가상 예시</text>
+</svg>
