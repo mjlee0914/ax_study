@@ -6,3 +6,6 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# AI 대화 기록 (SpecStory)
+.specstory/
